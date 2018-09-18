@@ -1,0 +1,100 @@
+body {
+    background-color: #D8D8D8;
+    max-width: 1200px;
+    margin: auto;
+    .shoes_shoppingcard {
+        display: none;
+    }
+    .show {
+        display: block;
+    }
+    .header_image {
+        height: 100px;
+        background-color: #531011;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        p {
+            font-size: 3em;
+            color: white;
+        }
+    }
+    .black_bar {
+        justify-content: center;
+        display: flex;
+        height: 30px;
+        font-size: 1.4em;
+        background-color: #131313;
+        color: white;
+        padding-left: 10px;
+        a {
+            text-decoration: none;
+            padding-right: 20px;
+            color: white;
+        }
+        p {
+            padding-top: 120px;
+            font-size: 0.8em;
+        }
+    }
+    .content {
+        margin:auto;
+        max-width: 1000px;
+        background-color: white;
+        p{
+            font-size:2em;
+            font-weight:bold;
+            text-align:center;
+        }
+        .allshoes {
+            display: flex;
+            justify-content: space-around;
+
+            .shoes {
+                img {
+                    width: 150px;
+                    height: 100px;
+                }
+                p {
+                    text-align: center;
+                    button {
+                        width: 100px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .content_2 {
+        margin:auto;
+        max-width: 1000px;
+        background-color: white;
+        p{
+            font-size:2em;
+            font-weight:bold;
+            text-align:center;
+        }
+        .allshoes {
+            display: flex;
+            justify-content: space-around;
+
+            .shoes_shoppingcard {
+                img {
+                    width: 150px;
+                    height: 100px;
+                }
+                p {
+                    text-align: center;
+                    button {
+                        width: 100px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

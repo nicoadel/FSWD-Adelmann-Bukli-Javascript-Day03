@@ -1,0 +1,75 @@
+body {
+  background-color: #D8D8D8;
+  max-width: 1200px;
+  margin: auto; }
+  body .shoes_shoppingcard {
+    display: none; }
+  body .show {
+    display: block; }
+  body .header_image {
+    height: 100px;
+    background-color: #531011;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    body .header_image img {
+      width: 100px;
+      height: 100px; }
+    body .header_image p {
+      font-size: 3em;
+      color: white; }
+  body .black_bar {
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    font-size: 1.4em;
+    background-color: #131313;
+    color: white;
+    padding-left: 10px; }
+    body .black_bar a {
+      text-decoration: none;
+      padding-right: 20px;
+      color: white; }
+    body .black_bar p {
+      padding-top: 120px;
+      font-size: 0.8em; }
+  body .content {
+    margin: auto;
+    max-width: 1000px;
+    background-color: white; }
+    body .content p {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center; }
+    body .content .allshoes {
+      display: flex;
+      justify-content: space-around; }
+      body .content .allshoes .shoes img {
+        width: 150px;
+        height: 100px; }
+      body .content .allshoes .shoes p {
+        text-align: center; }
+        body .content .allshoes .shoes p button {
+          width: 100px;
+          height: 30px; }
+  body .content_2 {
+    margin: auto;
+    max-width: 1000px;
+    background-color: white; }
+    body .content_2 p {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center; }
+    body .content_2 .allshoes {
+      display: flex;
+      justify-content: space-around; }
+      body .content_2 .allshoes .shoes_shoppingcard img {
+        width: 150px;
+        height: 100px; }
+      body .content_2 .allshoes .shoes_shoppingcard p {
+        text-align: center; }
+        body .content_2 .allshoes .shoes_shoppingcard p button {
+          width: 100px;
+          height: 30px; }
+
+/*# sourceMappingURL=styles.css.map */
