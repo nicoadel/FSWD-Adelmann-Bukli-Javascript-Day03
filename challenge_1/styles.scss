@@ -1,31 +1,62 @@
 body {
-	background-color: #D8D8D8;
-	max-width: 1200px;
-	margin: auto;
-}
+    background-color: #D8D8D8;
+    max-width: 1200px;
+    margin: auto;
 
-.content {
-	max-width: 1000px;
-	background-color: white; 
-}
+    .header_image {
+        height: 100px;
+        background-color: #531011;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        img {
+            width: 10%;
+            height: 80%;
+        }
+        p {
+            font-size: 3em;
+            color: white;
+        }
+    }
+    .black_bar {
+        justify-content: center;
+        display: flex;
+        height: 30px;
+        font-size: 1.4em;
+        background-color: #131313;
+        color: white;
+        padding-left: 10px;
+        a {
+            text-decoration: none;
+            padding-right: 20px;
+            color: white;
+        }
+        p {
+            padding-top: 120px;
+            font-size: 0.8em;
+        }
+    }
+    .content {
+        max-width: 1000px;
+        background-color: white;
+        .allshoes {
+            display: flex;
+            justify-content: space-around;
 
-.allshoes {
- 	display: flex;
-	justify-content: space-around; 
-}
-
-.shoes img {
-	width: 150px;
-	height: 100px;
-}
-
-.shoes button {
-	width: 100px;
-	height: 30px;
-	
-}
-
-
-.shoes p {
-	text-align: center;
+            .shoes {
+                img {
+                    width: 150px;
+                    height: 100px;
+                }
+                p {
+                    text-align: center;
+                    button {
+                        width: 100px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
