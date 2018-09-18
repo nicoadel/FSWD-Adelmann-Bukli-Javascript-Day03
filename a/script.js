@@ -7,15 +7,17 @@ getHighest(fh);
 //*Basic 3
 document.write("<br><br><hr><br>");
 
-getElementById("output_highest").innerHTML=(calculateProduct(numbers));
+document.getElementById("output_highest").innerHTML=(calculateProduct(numbers));
 
 
 function temp (){
 var a = (Math.floor(Math.random()*31)-5); 
 	if (( -5 <= a ) && (a <= 10)) {
-	   document.write("The weather is cold")
+	   document.write("The weather is cold");
+	   document.getElementById("warm_cold").src="cold.jpg";
 	} else {
-	   document.write("The weather is moderate")
+	   document.write("The weather is moderate");
+	   document.getElementById("warm_cold").src="warm.jpg";
 	}
 }
 
