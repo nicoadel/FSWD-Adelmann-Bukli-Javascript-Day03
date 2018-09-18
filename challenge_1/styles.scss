@@ -1,0 +1,31 @@
+body {
+	background-color: #D8D8D8;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.content {
+	max-width: 1000px;
+	background-color: white; 
+}
+
+.allshoes {
+ 	display: flex;
+	justify-content: space-around; 
+}
+
+.shoes img {
+	width: 150px;
+	height: 100px;
+}
+
+.shoes button {
+	width: 100px;
+	height: 30px;
+	
+}
+
+
+.shoes p {
+	text-align: center;
+}
